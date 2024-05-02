@@ -1,0 +1,44 @@
+body {
+    /* Imposta l'immagine a gradiente come sfondo */
+    background-image: linear-gradient(to bottom right, #e4d9ff, #273469);
+
+    /* Assicurati che l'immagine a gradiente copra l'intero body */
+    background-size: cover;
+
+    /* Assicurati che l'immagine a gradiente si ripeta se necessario */
+    background-repeat: no-repeat;
+
+    /* Imposta l'origine dell'immagine a gradiente */
+    background-attachment: fixed;
+
+    /* Assicurati che il testo sia leggibile sull'immagine di sfondo */
+    color: white;
+}
+
+h1 {
+    /* Imposta il colore del testo a bianco */
+    color: #1e2749;
+    text-align: center;
+}
+
+
+/* Importa il font Montserrat da Google Fonts (se non lo hai già incluso) */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Applica il font Montserrat al body e a tutti gli altri elementi */
+body, h1, h2, h3, p, .classe-di-elemento {
+    font-family: 'Montserrat', sans-serif;
+    color: #1e2749;
+}
+
+.navbar {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+}
+
+.nav-link {
+    margin: 0 10px; 
+}
+
+

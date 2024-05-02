@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Web Page</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Iscrizione utente</h1>
+    
+    <form style="padding: 5%;">
+        <div class="mb-3">
+          <label for="nome" class="form-label">Nome </label>
+          <input type="text" class="form-control" id="nome">
+        </div>
+        <div class="mb-3">
+            <label for="cognone" class="form-label">Cognome </label>
+            <input type="text" class="form-control" id="cognone">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Indirizzo email</label>
+            <input type="email" class="form-control" id="email">
+        </div>
+        <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password">
+        </div>
+        <button type="submit" onclick="registrazioneUtente(this)" class="btn btn-primary">Submit</button>
+      </form>
+
+
+</body>
+</html>
