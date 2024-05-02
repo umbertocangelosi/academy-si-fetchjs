@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Profilo utente</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <h1>Profilo Utente</h1>
+        <nav>
+          <a href="home.html"><button>Torna alla home</button></a>
+        </nav>
+        <div class="container">
+            <table id="tabellaUtenti">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Cognome</th>
+                        <th>Email</th>
+                        <th>Ruoli</th>
+                    </tr>
+                </thead>
+                <tbody id="corpoTabella">
+                    <!-- Qui verranno inserite le righe della tabella tramite JavaScript -->
+                </tbody>
+            </table>
+        </div>
+          <script>
+            dettagliUtente();
+          </script>
+            <nav class="navbar navbar-expand-lg">
+                <a href="home.html"><button>Torna alla home</button></a>
+            </nav>
+      </header>
+    </body>
+  </html>

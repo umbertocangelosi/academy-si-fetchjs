@@ -9,7 +9,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Iscrizione utente</h1>
+  <header style="align-items: center">
+    <h1>Registrazione utente</h1>
+    <nav class="navbar-expand-lg">
+      <a href="home.html"><button>Torna alla home</button></a>
+    </nav>
+  </header>
+    
     
     <form style="padding: 5%;">
         <div class="mb-3">
@@ -17,8 +23,8 @@
           <input type="text" class="form-control" id="nome">
         </div>
         <div class="mb-3">
-            <label for="cognone" class="form-label">Cognome </label>
-            <input type="text" class="form-control" id="cognone">
+            <label for="cognome" class="form-label">Cognome </label>
+            <input type="text" class="form-control" id="cognome">
           </div>
           <div class="mb-3">
             <label for="email" class="form-label">Indirizzo email</label>
@@ -28,8 +34,9 @@
             <label for="password" class="form-label">Password</label>
             <input type="password" class="form-control" id="password">
         </div>
-        <button type="submit" onclick="registrazioneUtente(this)" class="btn btn-primary">Submit</button>
+        <button type="button" onclick="registrazioneUtente()" class="btn btn-primary">Submit</button>
       </form>
+
 
 
 </body>

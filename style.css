@@ -1,3 +1,6 @@
+
+/* Importa il font Montserrat da Google Fonts (se non lo hai già incluso) */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 body {
     /* Imposta l'immagine a gradiente come sfondo */
     background-image: linear-gradient(to bottom right, #e4d9ff, #273469);
@@ -22,8 +25,7 @@ h1 {
 }
 
 
-/* Importa il font Montserrat da Google Fonts (se non lo hai già incluso) */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 
 /* Applica il font Montserrat al body e a tutti gli altri elementi */
 body, h1, h2, h3, p, .classe-di-elemento {
@@ -31,14 +33,65 @@ body, h1, h2, h3, p, .classe-di-elemento {
     color: #1e2749;
 }
 
-.navbar {
-    display: flex; 
-    justify-content: space-around; 
-    align-items: center;
+.header-contenitore {
+    text-align: center; /* Centratura orizzontale */
+    padding: 10px 10px; /* Spazio intorno all'header */
+}
+  
+
+  
+.navbar-nav .nav-link {
+    color: #333; /* Colore del testo */
+    
+  }
+  
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Colore del testo al passaggio del mouse */
+  }
+  
+.nav{
+    display: flex; /* Utilizza un layout flessibile */
+    justify-content: center; /* Centra orizzontalmente i contenuti */
+    align-items: center; /* Centra verticalmente i contenuti */
+    height: 60px; /* Altezza della barra di navigazione */
+    background-color: #333; /* Colore di sfondo della barra di navigazione */
+    color: #fff; /* Colore del testo */
 }
 
-.nav-link {
-    margin: 0 10px; 
+
+.container {
+    max-width: 800px;
+    margin: 50px;
+    background-color: #273469;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #2980b9;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+
 
 
